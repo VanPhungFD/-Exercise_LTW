@@ -1,0 +1,274 @@
+body {
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#page .container{
+    margin: 0 auto;
+    overflow: auto;
+}
+/*DESSIGN TOP BAR*/
+#page #section_header_2_dark{
+    background: #333333;
+    height: 100px;
+}
+#page #section_header_2_dark .container{
+    width: 70%;
+    height: auto;
+}
+#page #section_header_2_dark .container .navbar-header .pix_nav_logo{
+    float: left;
+    padding-top: 30px ;
+}
+#page #section_header_2_dark .container .navbar-right{
+    float: right;
+    padding-top: 30px;
+}
+#page #section_header_2_dark .container ul{
+
+}
+#page #section_header_2_dark .container ul li{
+    list-style-type: none;
+    float: left;
+}
+#page #section_header_2_dark .container ul li a{
+    color: #c1c2bd;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    padding-right: 50px;
+}
+#page #section_header_2_dark .container ul li span{
+    color: #fbc221;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    padding-right: 50px;
+}
+#page #section_header_2_dark .container ul li a .active{
+
+}
+/*END TOP BAR*/
+/*DESIGN BANNER*/
+#page #section_pix_4 {
+    width: 100%;
+    height: 820px;
+}
+#page #section_pix_4 .pix_video_div .bgvid {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    display: inline-block;
+    position: relative;
+}
+#page #section_pix_4 .creative_header{
+    background: rgba(0,0,0,0.5);
+}
+#page #section_pix_4 .creative_header .container{
+    position: absolute;
+    top: 53%;
+    left: 19%;
+    text-align: center;
+    width: 900px;
+    height: auto;
+    overflow: auto;
+}
+#page #section_pix_4 .creative_header .container .title_style .editContent {
+    color: white;
+    font-weight: bold;
+    font-size: 350%;
+}
+#page #section_pix_4 .creative_header .container .subtitle_style{
+    padding: 20px 0 20px 0;
+
+}
+#page #section_pix_4 .creative_header .container .subtitle_style .creative_h_text .editContent {
+    color: white;
+    font-size: 190%;
+    padding-top:30px;
+}
+
+#page #section_pix_4 .creative_header .container .email_subscribe{
+    background: #252425;
+    width: 590px;
+    text-align: center;
+    margin-left:150px;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 7px;
+    border: none;
+    margin-right: 15px
+
+}
+#page #section_pix_4 .creative_header .container .email_subscribe form{
+    height: auto;
+    width: auto;
+    padding-bottom: 7px;
+}
+ #page #section_pix_4 .creative_header .container .email_subscribe input {
+    font-size: 150%;
+    width: 50%;
+    height: 40px;
+    color: #d9d9d9;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding-bottom: 15px ;
+    padding: 3.5px;
+}
+#page #section_pix_4 .creative_header .container .email_subscribe button {
+    width: 40%;
+    background: #f1c232;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+
+#page #section_pix_4 .creative_header .container .note_st{
+    color: white;
+    font-size: larger;
+    padding: 30px;
+}
+/*END BANNER*/
+/*DESIGN MAIN*/
+#page #section_university_5 {
+   padding-top: 60px;
+    width: 100%;
+    height: 730px;
+}
+#page #section_university_5 .container{
+    width: 70%;
+    padding-top: 10px;
+}
+#page #section_university_5 .container .alpha{
+    width: 60%;
+    background: white;
+    float: left;
+    height: auto;
+}
+#page #section_university_5 .container .alpha .psingle_item{
+    width: auto;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+#page #section_university_5 .container .alpha .icon_st{
+    width: 30%;
+    float: left;
+    padding: 30px 0 0 30px;
+}
+#page #section_university_5 .container .alpha .text_st{
+    float: right;
+    width: 60%;
+    padding-right: 20px;
+}
+#page #section_university_5 .container .alpha .text_st .title_st{
+    color: black;
+    font-size: 200%;
+}
+#page #section_university_5 .container .alpha .text_st .subject_st{
+    color: #b4b4b4;
+    font-size: 120%;
+}
+#page #section_university_5 .container .omega{
+    width: 40%;
+    background: #e1e1e1;
+    float: right;
+    overflow: auto;
+    border-radius: 4px;
+}
+#page #section_university_5 .container .omega .substyle .title-style{
+    color: black;
+    font-size: 200%;
+}
+#page #section_university_5 .container .omega .substyle .text-style{
+    color: #ada9a9;
+    font-size: 120%;
+}
+#page #section_university_5 .container .omega .pix_builder_bg{
+    padding: 30px;
+}
+#page #section_university_5 .container .omega .result {
+    padding-bottom: 30px;
+}
+#page #section_university_5 .container .omega input{
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+}
+#page #section_university_5 .container .omega select, button{
+    border: none;
+    height: 50px;
+    width: 102%;
+    border-radius: 3px;
+}
+#page #section_university_5 .container .omega button{
+    background: #7cc576;
+    color: white;
+    font-size: 140%;
+}
+#page #section_university_5 .container .omega .select_st{
+    padding-bottom: 30px;
+}
+/*END MAIN*/
+/*FOOTER*/
+/*design section*/
+#page #section_ecourse_7{
+    overflow: auto;
+    width: 100%;
+    background: #d9d9d9 !important;
+    color:#848794 ;
+    margin: 0 auto;
+    padding: 0 ;
+}
+#page #section_ecourse_7 .container{
+    width: 80%;
+    background: #d9d9d9;
+}
+#page #section_ecourse_7 .alpha{
+    margin-top:15px ;
+    overflow: auto;
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    clear: right;
+    font-size: 110%;
+}
+#page #section_ecourse_7 .alpha .pixfort_st{
+    color:#8465ad ;
+    font-size: 115%;
+}
+
+#page #section_ecourse_7 .omega{
+    font-size: 115%;
+    float: right;
+    width: 35%;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+#page #section_ecourse_7 .omega ul li{
+    background: #e9e9e9;
+    text-align: right;
+    text-decoration-line: none;
+    list-style-type: none;
+    float: right;
+    padding-left: 10px;
+    padding: 3px 10px;
+   
+}
+#page #section_ecourse_7 .omega ul li a{
+    color: #83888c;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+}
+/*END FOOTER*/

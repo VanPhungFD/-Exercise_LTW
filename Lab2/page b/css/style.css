@@ -1,0 +1,484 @@
+.col-6-12 {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+
+.col-4-12 {
+    padding: 0;
+    margin: 0;
+    width: 33.3333333333%;
+    float: left;
+}
+
+.col-3-12 {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    float: left;
+}
+
+.mg-r-5 {
+    margin-right: 5px;
+}
+
+.mg-center {
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.mg-auto {
+    margin: auto;
+}
+
+.mg-rl-auto {
+    margin: 0 auto;
+}
+
+.mg-tb-auto {
+    margin: auto 0;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.fl-right {
+    float: right;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-main {
+    background-color: rgb(202, 198, 198);
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.707);
+}
+
+
+
+:root{
+    --colorText: #7f7f7f;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container {
+    width: 1200px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    font-family: Helvetica, sans-serif;
+}
+
+#page {
+    width: 100%;
+}
+
+#page #header {
+    background-color: #f3f3f3;
+    height: 120px;
+}
+
+#page #header #buy-ticket{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#page #header #buy-ticket #logo{
+    width: 30%;
+}
+
+#page #header #buy-ticket #btn-buy-tickets{
+    width: 70%;
+    text-align: right;
+}
+
+#page #header #buy-ticket #btn-buy-tickets button {
+    padding: 15px 25px;
+    background-color: #f77825;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#page #header #buy-ticket {
+    display: flex;
+}
+
+
+
+
+/*
+navigation
+*/
+
+
+#page #navbar{
+    height: 100px;
+    display: flex;
+}
+
+
+#page #navbar .nav {
+    display: flex;
+    justify-content: space-between
+}
+#page #navbar .nav #nav-item {
+    width: 50%;
+    display:flex;
+    align-self: center;
+}
+
+#page #navbar .nav #social_media {
+    width: 50%;
+    display:flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+
+#page #navbar .nav #nav-item ul li, #social_media ul li{
+    list-style: none;
+    display: inline;
+   
+}
+
+#page #navbar .nav #nav-item ul li a,#social_media ul li a{
+    text-decoration: none;
+    color: var(--colorText);
+    font-size: 20px;
+}
+
+#page #navbar .nav #nav-item ul li{
+    margin-right: 50px;
+}
+
+#page #navbar .nav #social_media ul li{
+    margin-left: 20px;
+}
+
+#page #navbar .nav #social_media ul li a i{
+    font-size:25px;
+}
+
+
+/* 
+    slider
+*/
+
+#content #slider-container{
+    height: 660px;
+    width: 100%;
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+#content #slider-container #slider {
+   
+    position: relative;
+}
+
+#content #slider-container #slider {
+    position: relative;
+}
+
+#content #slider-container #slider .slider-item{
+    height: 460px;
+}
+
+#content #slider-container #slider .slide-img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px; 
+}
+
+#content #slider-container #slider #pre {
+    position: absolute;
+    float: left;
+    top: 46%;
+    left: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#content #slider-container #slider #next {
+    position: absolute;
+    float: right;
+    top: 46%;
+    right: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#content #slider-container #slider .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(29, 24, 29), rgba(138, 116, 120, 0));
+    padding-left: 5%;
+    box-sizing: border-box;
+    height: 135px;
+    border-radius: 0 0 5px 5px
+}
+
+
+/* 
+    css cho tham gia khóa học
+*/
+
+#content #container-course {
+    height: 580px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+#content #container-course .course-group {
+    display:flex;
+}
+
+#content #container-course .course-group .course-item {
+    width:33.3333333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+}
+
+#content #container-course .course-group .course-item img {
+    border-radius: 50%;
+    width: 250px;
+    margin: auto;
+}
+
+#content #container-course .course-group .course-item h1 {
+    padding: 35px 10px;
+    margin: 0;
+    font-size: 25px;
+}
+
+#content #container-course .course-group .course-item p {
+    color: var(--colorText);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#content #container-course .course-group .course-item>button {
+    width: 120px;
+    height: 50px;
+    margin: 25px auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff8833;
+    font-size: 15px;
+}
+
+
+/* 
+    css cho giá bán khóa học
+*/
+#content #container-course-price{
+    background-color: #f3f3f3;
+    padding:15px 0 90px 0;
+
+}
+#content #container-course-price #course-price {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#content #container-course-price #course-price .course-item-price {
+    width: 370px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+    border: 3px solid #dddddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+#content #container-course-price #course-price .course-item-price h1 {
+    color: #2dc0e8;
+    margin: 50px auto 20px auto;
+    font-size: 50px;
+}
+
+#content #container-course-price #course-price .course-item-price h4 {
+    color: rgb(163, 167, 163);
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size:16px;
+}
+
+#content #container-course-price #course-price .course-item-price p {
+    color: rgb(163, 167, 163);
+    margin: 0;
+    margin-top: 45px;
+}
+
+#content #container-course-price #course-price .course-item-price button {
+    width: 220px;
+    height: 60px;
+    margin: 40px auto 0 auto;
+    padding: 15px 0;
+    background-color:#2dc0e8;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#content #container-course-price #course-price .course-item-price:nth-child(even) button:nth-child(even) {
+    background-color: #f77825;
+}
+
+#content #container-course-price #course-price .course-item-price:nth-child(even) h1:nth-child(odd) {
+    color: #f77825;
+}
+
+
+/* 
+    css cho footer
+*/
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color:#191919
+}
+
+#footer #footer-form {
+    display: flex;
+    width:550px;
+    height: 550px;
+    background-color:#151515;
+    margin: auto;
+    margin:80px auto 90px;
+    border: 1px solid #292929;
+}
+
+#footer #form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto 50px auto;
+    width: 90%;
+    text-align: center;
+   
+}
+
+#footer #form input {
+    width:100%;
+    margin: 0 auto 20px;
+    height: 65px;
+    display: block;
+    border-radius: 3px;
+    text-indent: 5px;
+}
+
+#footer #form h3 {
+    color: white;
+    margin: 0;
+    font-size:30px;
+    font-weight:normal;
+    margin-top: 60px;
+}
+
+#footer #form #line-short {
+    width: 100px;
+    height: 5px;
+    background-color: #1c8ff5;
+    margin: 30px auto 40px;
+}
+
+#footer #form p {
+    color: #808080;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size:20px;
+    line-height:1.5
+}
+
+#footer #form input:last-child {
+    background-color: #2372e4;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* last footer */
+
+#footer #footer-author {
+    width: 100%;
+    background-color: #151515;
+    height: 80px;
+}
+#footer #footer-author .container{
+    display: flex;
+    justify-content:space-between;
+   height: 100%;
+  
+}
+
+#footer #footer-author .container #copyright, #social_media_footer{
+    width: 50%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#footer #footer-author .container  #social_media_footer{
+    justify-content: flex-end;
+}
+
+
+#footer #footer-author p,
+span {
+    color: #a0a5a9;
+    font-size:15px
+}
+
+#footer #footer-author  .container  #social_media_footer i {
+    cursor: pointer;
+    margin-left: 15px;
+    font-size:20px;
+    color:#bbbbbb
+}
