@@ -1,0 +1,116 @@
+html {
+  background: #fff;
+}
+body {
+  background: #ddd;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.container {
+  background: white;
+  border: solid 1px #ddd;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 25px 15px 25px;
+}
+
+.container .header {
+  text-align: center;
+}
+
+.container .alpha {
+  padding: 15px;
+  background: #ddd;
+  height: 55px;
+  margin-top: 50px;
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+}
+.container .alpha .label {
+  font-size: 110%;
+}
+
+.container input[type="text"],
+#email {
+  background: transparent;
+  border: none;
+  width: 99%;
+  margin-top: 5px;
+  padding-top: 10px;
+  font-size: 101%;
+  text-align: -webkit-left;
+}
+
+.container .alpha1 {
+  margin: 50px 0 50px;
+  height: 100px;
+}
+.container .alpha1 .label {
+  font-size: 110%;
+}
+
+.container .alpha1 .email {
+  float: left;
+  background: #ddd;
+  padding: 15px;
+  width: 45%;
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.container .alpha1 .phone {
+  float: right;
+  background: #ddd;
+  padding: 15px;
+  width: 45%;
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.container select {
+  width: 99%;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  background: #ddd;
+  margin-top: 5px;
+  padding-top: 10px;
+  font-size: 101%;
+  text-align: -webkit-left;
+}
+.container .message .label {
+  font-size: 110%;
+}
+.container .message input[type="text"],
+#email {
+  background: transparent;
+}
+
+.container .message {
+  margin-top: 30px;
+  padding: 15px;
+  height: 100px;
+  border: solid 1px gainsboro;
+  border-radius: 5px;
+}
+
+.container .submit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container input[type="submit"] {
+  background: #333333;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  width: 99%;
+  height: 40px;
+}

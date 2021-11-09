@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <script src="js/script.js"></script>-->
+
+</head>
+<body>
+<h1 id="rand"></h1>
+<script>
+    Array.prototype.sample = function(){
+        return this[Math.floor(Math.random()*this.length)];
+    }
+    const greeting = ["Hello!", "Hi!", "How are you!", "Welcome to my website", "Good  morning!","Good luck for you!", "Good day!"];
+
+    document.getElementById("rand").innerHTML = greeting.sample();
+ </script>
+</body>
+</html>

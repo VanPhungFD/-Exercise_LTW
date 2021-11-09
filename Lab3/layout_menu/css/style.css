@@ -1,0 +1,116 @@
+.navbar {
+  width: 645px;
+  height: 55px;
+  padding: 0 auto;
+  margin:0 auto;
+  background: #eee;
+  border-left: solid 6px  #8b0000;
+  border-bottom: solid 3px  #8b0000;
+
+}
+
+.navbar ul {
+  margin-left: -35px;
+  
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px 20px 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  white-space: nowrap;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  background: #8b0000;
+   color: #fff;
+   border-left: solid 3px #c54242;
+}
+
+.navbar .menu-list ul {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: calc(100% + 30px);
+  margin: 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #eee;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-bottom: solid 2px #ccc;
+  padding-left: 5px;
+}
+
+.navbar .menu-list ul li {
+  min-width: 200px;
+  border-bottom: solid 2px #ccc;
+}
+
+.navbar .menu-list ul a {
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+  color: #2f4d5a;
+  padding: 20px 15px 20px 15px;
+  margin: 0 auto;
+}
+
+.navbar .menu-list ul a i {
+  font-size: 12px;
+}
+
+.navbar .menu-list ul a:hover, .navbar .menu-list ul .active:hover, .navbar .menu-list ul li:hover > a {
+  color: #fff;
+}
+
+.navbar .menu-list:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .menu-list .menu-list ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .menu-list .menu-list:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar .menu-list .menu-list ul {
+    left: -90%;
+  }
+  .navbar .menu-list .menu-list:hover > ul {
+    left: -100%;
+  }
+}

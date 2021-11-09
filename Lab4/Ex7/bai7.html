@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bài 7</h1>
+    <div id="bai7">
+      <script>
+        let i = 1;
+        const remove = (el) => {
+          el.style.visibility = "hidden";
+          ++i;
+        };
+        const sai = (index, el) => {
+          if (index === i) {
+            remove(el);
+          } else {
+            alert("sai");
+          }
+        };
+        const button = () => {
+          for (let index = 1; index < 65; index++) {
+            if (index === 1) {
+              document.write(
+                `<button id="${index}" onclick="remove(this)">${index}</button>`
+              );
+            } else {
+              document.write(
+                `<button id="${index}" onclick="sai(${index},this)">${index}</button>`
+              );
+            }
+          }
+        };
+
+        button();
+        // document.getElementById(`1`).addEventListener("click", (e) => {
+        //   console.log(123)
+        // });
+      </script>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

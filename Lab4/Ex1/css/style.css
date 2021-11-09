@@ -1,0 +1,41 @@
+html{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+#color {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 1000px;
+}
+
+.blue {
+    background: deepskyblue;
+    color: black;
+}
+
+.black {
+    background: #aaaaaa;
+    color: #aaaaaa;
+}
+
+.red {
+    background: red;
+    color: #333333;
+}
+.yellow {
+    background: #ffff56;
+    color: black;
+}
+.green{
+    background:#56ff56 ;
+    color: black;
+}
+button {
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-right: 20px;
+}
